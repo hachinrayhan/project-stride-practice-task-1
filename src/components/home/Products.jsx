@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import SingleProduct from "./SingleProduct";
+import SingleProduct from "../SingleProduct";
 
 const Products = ({ data: shoes }) => {
   return (

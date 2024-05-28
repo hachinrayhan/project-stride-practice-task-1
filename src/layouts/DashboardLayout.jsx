@@ -23,10 +23,13 @@ const DashboardLayout = () => {
         <ul className="menu p-4 w-60 min-h-full bg-base-200 text-base-content">
           {/* Sidebar content here */}
           <li>
-            <Link>Dashboard</Link>
+            <Link to={"/dashboard"}>Dashboard</Link>
           </li>
           <li>
-            <Link>All Products</Link>
+            <Link to={"/dashboard/all-products"}>All Products</Link>
+          </li>
+          <li>
+            <Link to={"/dashboard/add-product"}>Add Product</Link>
           </li>
           <li>
             <Link to={"/"}>Home</Link>
