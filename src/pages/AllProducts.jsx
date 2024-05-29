@@ -12,7 +12,9 @@ const AllProducts = () => {
 
   return (
     <div>
-      <h1 className="text-3xl text-center font-bold py-5">All Products</h1>
+      <h1 className="text-3xl text-center font-bold py-5">
+        All Products ({products.length})
+      </h1>
       <div className="flex flex-wrap justify-center gap-4">
         {products.map((shoe) => (
           <SingleProduct key={shoe.id} shoe={shoe} />

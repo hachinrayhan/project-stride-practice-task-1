@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Air Max 270",
       "brand": "Nike",
-      "price": 150.0,
+      "price": 150,
       "description": "The Nike Air Max 270 features Nike's biggest heel Air unit yet for a super-soft ride that feels as impossible as it looks.",
       "image_url": "https://shorturl.at/j6544"
     },
@@ -12,7 +12,7 @@
       "id": "2",
       "title": "Ultraboost 21",
       "brand": "Adidas",
-      "price": 180.0,
+      "price": 180,
       "description": "The Adidas Ultraboost 21 offers incredible energy return, making it the perfect running shoe for any distance.",
       "image_url": "https://shorturl.at/wjbdV"
     },
@@ -20,7 +20,7 @@
       "id": "3",
       "title": "Gel-Kayano 27",
       "brand": "ASICS",
-      "price": 160.0,
+      "price": 160,
       "description": "The ASICS Gel-Kayano 27 is designed to provide excellent long-distance comfort and stability.",
       "image_url": "https://shorturl.at/XLPhT"
     },
@@ -28,7 +28,7 @@
       "id": "4",
       "title": "Classic Leather",
       "brand": "Reebok",
-      "price": 75.0,
+      "price": 75,
       "description": "The Reebok Classic Leather combines a timeless style with superior comfort and durability.",
       "image_url": "https://shorturl.at/h7hUE"
     },
@@ -36,7 +36,7 @@
       "id": "5",
       "title": "Chuck Taylor All Star",
       "brand": "Converse",
-      "price": 55.0,
+      "price": 55,
       "description": "The Converse Chuck Taylor All Star is an iconic sneaker that has been a staple in casual footwear for decades.",
       "image_url": "https://shorturl.at/MpcBj"
     },
@@ -44,7 +44,7 @@
       "id": "6",
       "title": "Old Skool",
       "brand": "Vans",
-      "price": 60.0,
+      "price": 60,
       "description": "The Vans Old Skool is a classic skate shoe with a durable canvas and suede upper and the iconic side stripe.",
       "image_url": "https://t.ly/ZSsfR"
     },
@@ -52,7 +52,7 @@
       "id": "7",
       "title": "Wave Rider 24",
       "brand": "Mizuno",
-      "price": 130.0,
+      "price": 130,
       "description": "The Mizuno Wave Rider 24 provides a smooth and responsive ride, making it ideal for long-distance running.",
       "image_url": "https://t.ly/YxAG2"
     },
@@ -60,7 +60,7 @@
       "id": "8",
       "title": "Clifton 7",
       "brand": "Hoka One One",
-      "price": 140.0,
+      "price": 140,
       "description": "The Hoka One One Clifton 7 offers plush cushioning and a lightweight design for maximum comfort on any run.",
       "image_url": "https://t.ly/gyv4F"
     },
@@ -68,7 +68,7 @@
       "id": "9",
       "title": "Speedcross 5",
       "brand": "Salomon",
-      "price": 130.0,
+      "price": 130,
       "description": "The Salomon Speedcross 5 is a high-performance trail running shoe designed for maximum grip and stability.",
       "image_url": "https://t.ly/N-2bD"
     },
@@ -76,9 +76,25 @@
       "id": "10",
       "title": "Fresh Foam 1080v11",
       "brand": "New Balance",
-      "price": 150.0,
+      "price": 150,
       "description": "The New Balance Fresh Foam 1080v11 provides luxurious comfort and a smooth ride for any type of runner.",
       "image_url": "https://t.ly/rMYyI"
+    },
+    {
+      "id": "11",
+      "title": "Air Zoom Pegasus 38",
+      "brand": "Nike",
+      "price": "120",
+      "description": "The Nike Air Zoom Pegasus 38 continues to put a spring in your step, using the same responsive foam as its predecessor.",
+      "image_url": "https://t.ly/jd0Gx"
+    },
+    {
+      "id": "12",
+      "title": "Adizero Adios Pro 2",
+      "brand": "Adidas",
+      "price": "220",
+      "description": "The Adidas Adizero Adios Pro 2 is a performance running shoe designed to help you crush your PRs with its advanced energy return technology.",
+      "image_url": "https://t.ly/VwXva"
     }
   ]
 }
