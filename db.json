@@ -4,73 +4,81 @@
       "id": "2",
       "title": "Ultraboost 21",
       "brand": "Adidas",
-      "price": 180,
+      "price": "190",
       "description": "The Adidas Ultraboost 21 offers incredible energy return, making it the perfect running shoe for any distance.",
-      "image_url": "https://shorturl.at/wjbdV"
+      "image_url": "https://img.freepik.com/free-photo/light-shoes-street-ai-generated_268835-8257.jpg?t=st=1717003845~exp=1717007445~hmac=d1615f777dbadcdebbb7d39ba920e12547fbace89a57a33ed7306fa4efbe024c&w=740"
     },
     {
       "id": "3",
       "title": "Gel-Kayano 27",
       "brand": "ASICS",
-      "price": 160,
+      "price": "170",
       "description": "The ASICS Gel-Kayano 27 is designed to provide excellent long-distance comfort and stability.",
-      "image_url": "https://shorturl.at/XLPhT"
-    },
-    {
-      "id": "4",
-      "title": "Classic Leather",
-      "brand": "Reebok",
-      "price": 75,
-      "description": "The Reebok Classic Leather combines a timeless style with superior comfort and durability.",
-      "image_url": "https://shorturl.at/h7hUE"
-    },
-    {
-      "id": "5",
-      "title": "Chuck Taylor All Star",
-      "brand": "Converse",
-      "price": 55,
-      "description": "The Converse Chuck Taylor All Star is an iconic sneaker that has been a staple in casual footwear for decades.",
-      "image_url": "https://shorturl.at/MpcBj"
+      "image_url": "https://img.freepik.com/free-photo/sports-shoe-pair-design-illustration-generated-by-ai_188544-19642.jpg?t=st=1717003934~exp=1717007534~hmac=a32a619d90412750b6cdf83440a7b4f5595a16a542e367ec33ac5bf7a1c49af3&w=826"
     },
     {
       "id": "6",
       "title": "Old Skool",
       "brand": "Vans",
-      "price": 60,
+      "price": "60",
       "description": "The Vans Old Skool is a classic skate shoe with a durable canvas and suede upper and the iconic side stripe.",
-      "image_url": "https://t.ly/ZSsfR"
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1654.jpg?t=st=1716976786~exp=1716980386~hmac=4f5be7831886c4016b204f20c9de8bc21ade407aeda31afd4f3fafa42b6786ea&w=740"
     },
     {
       "id": "7",
       "title": "Wave Rider 24",
       "brand": "Mizuno",
-      "price": 130,
+      "price": "130",
       "description": "The Mizuno Wave Rider 24 provides a smooth and responsive ride, making it ideal for long-distance running.",
-      "image_url": "https://t.ly/YxAG2"
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1610.jpg?t=st=1716993253~exp=1716996853~hmac=2e9c565bec57741366ef586a40eb108594c0f06d91f4acaf32b75a0a05b4f063&w=740"
     },
     {
       "id": "8",
       "title": "Clifton 7",
       "brand": "Hoka One One",
-      "price": 140,
+      "price": "140",
       "description": "The Hoka One One Clifton 7 offers plush cushioning and a lightweight design for maximum comfort on any run.",
-      "image_url": "https://t.ly/gyv4F"
+      "image_url": "https://img.freepik.com/free-photo/close-up-futuristic-sneakers_23-2151005673.jpg?t=st=1716993352~exp=1716996952~hmac=f26dded2fac0761c00a8c5ff2ffe56d966b849c5f4441189e6ecd4e3c9816e48&w=360"
     },
     {
       "id": "9",
       "title": "Speedcross 5",
       "brand": "Salomon",
-      "price": 130,
+      "price": "130",
       "description": "The Salomon Speedcross 5 is a high-performance trail running shoe designed for maximum grip and stability.",
-      "image_url": "https://t.ly/N-2bD"
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1648.jpg?t=st=1716993318~exp=1716996918~hmac=5cef7ba05fa7a9963e20b6a76fd5870c90b5647c79923ac91ef960fa33f349ee&w=740"
     },
     {
       "id": "10",
       "title": "Fresh Foam 1080v11",
       "brand": "New Balance",
-      "price": 150,
+      "price": "150",
       "description": "The New Balance Fresh Foam 1080v11 provides luxurious comfort and a smooth ride for any type of runner.",
-      "image_url": "https://t.ly/rMYyI"
+      "image_url": "https://img.freepik.com/free-photo/close-up-futuristic-sneakers_23-2151005645.jpg?t=st=1716993306~exp=1716996906~hmac=dcd07b36348639dfb8bc760b8e36e6a5e2f507634d670a1b0df04734c7645d00&w=360"
+    },
+    {
+      "id": "12",
+      "title": "Adizero Adios Pro 2",
+      "brand": "Adidas",
+      "price": "210",
+      "description": "The Adidas Adizero Adios Pro 2 is a performance running shoe designed to help you crush your PRs with its advanced energy return technology.",
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1677.jpg?t=st=1717000002~exp=1717003602~hmac=4679feef5bed0a19f5a12b490dddf24a9692cc07f0de150228db0d61acb7d464&w=740"
+    },
+    {
+      "id": "1",
+      "title": "Air Max 270",
+      "brand": "Nike",
+      "price": "150",
+      "description": "The Nike Air Max 270 features Nike's biggest heel Air unit yet for a super-soft ride that feels as impossible as it looks.",
+      "image_url": "https://img.freepik.com/free-photo/colorful-sneaker-is-being-spray-painted-with-purple-spray-paint_123827-23438.jpg?t=st=1717003038~exp=1717006638~hmac=9d9fde494ebebf5c19eb4dab036594a544bf361ff0902e9b1a9597228d3ba6f9&w=740"
+    },
+    {
+      "id": "13",
+      "title": "Gel-Kayano 27",
+      "brand": "ASICS",
+      "price": "160",
+      "description": "The ASICS Gel-Kayano 27 is designed to provide excellent long-distance comfort and stability.",
+      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1652.jpg?t=st=1717003286~exp=1717006886~hmac=2de391711f283361c538cd75d172a718cc8bfbaf7a03683d2a4a35b294237990&w=740"
     }
   ]
 }

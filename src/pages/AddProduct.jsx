@@ -1,4 +1,9 @@
+import { useState } from "react";
+import ShowToast from "../components/ShowToast";
+
 const AddProduct = () => {
+  const [showToast, setShowToast] = useState(false);
+
   const handleAddProduct = async (e) => {
     e.preventDefault();
     const form = e.target;
@@ -20,6 +25,7 @@ const AddProduct = () => {
       .then((res) => res.json())
       .then((data) => console.log(data));
     form.reset();
+    setShowToast(true);
   };
 
   return (
@@ -103,6 +109,11 @@ const AddProduct = () => {
           <button className="btn btn-primary">Add Product</button>
         </div>
       </form>
+      <ShowToast
+        showToast={showToast}
+        setShowToast={setShowToast}
+        msg={"Product Added Successfully"}
+      />
     </div>
   );
 };

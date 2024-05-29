@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import ShowToast from "../components/ShowToast";
 
 /* eslint-disable react/prop-types */
 const ProductManagement = ({ shoe }) => {
   const { id, title, brand, price, description, image_url } = shoe;
+  const [showToast, setShowToast] = useState(false);
 
   const handleDelete = async () => {
     await fetch(`http://localhost:3000/shoes/${id}`, {
@@ -10,6 +13,7 @@ const ProductManagement = ({ shoe }) => {
     })
       .then((res) => res.json())
       .then((data) => console.log(data));
+    setShowToast(true);
   };
 
   return (
@@ -34,6 +38,11 @@ const ProductManagement = ({ shoe }) => {
           </button>
         </div>
       </div>
+      <ShowToast
+        showToast={showToast}
+        setShowToast={setShowToast}
+        msg={"Product Deleted Successfully"}
+      />
     </div>
   );
 };

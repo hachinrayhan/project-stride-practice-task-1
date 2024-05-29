@@ -1,8 +1,16 @@
+import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
+import ShowToast from "../components/ShowToast";
 
 const ProductUpdate = () => {
+  const [showToast, setShowToast] = useState(false);
   const shoe = useLoaderData();
-  console.log(shoe);
+  const [title, setTitle] = useState(shoe.title);
+  const [brand, setBrand] = useState(shoe.brand);
+  const [price, setPrice] = useState(shoe.price);
+  const [description, setDescription] = useState(shoe.description);
+  const [image_url, setImage_url] = useState(shoe.image_url);
+
   const handleProductUpdate = async (e) => {
     e.preventDefault();
     const form = e.target;
@@ -13,6 +21,17 @@ const ProductUpdate = () => {
     const description = form.description.value;
     const image_url = form.image_url.value;
     const productInfo = { id, title, brand, price, description, image_url };
+
+    await fetch(`http://localhost:3000/shoes/${shoe.id}`, {
+      method: "PATCH",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(productInfo),
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data));
+    setShowToast(true);
   };
 
   return (
@@ -29,6 +48,8 @@ const ProductUpdate = () => {
             placeholder="Product's Id"
             className="input input-bordered"
             required
+            value={shoe.id}
+            readOnly
           />
         </div>
         <div className="form-control">
@@ -41,6 +62,8 @@ const ProductUpdate = () => {
             placeholder="Product's Title"
             className="input input-bordered"
             required
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
           />
         </div>
         <div className="form-control">
@@ -53,6 +76,8 @@ const ProductUpdate = () => {
             placeholder="Brand Name"
             className="input input-bordered"
             required
+            value={brand}
+            onChange={(e) => setBrand(e.target.value)}
           />
         </div>
         <div className="form-control">
@@ -65,6 +90,8 @@ const ProductUpdate = () => {
             placeholder="Price"
             className="input input-bordered"
             required
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
           />
         </div>
         <div className="form-control">
@@ -77,6 +104,8 @@ const ProductUpdate = () => {
             placeholder="Description"
             className="input input-bordered"
             required
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
           />
         </div>
         <div className="form-control">
@@ -89,6 +118,8 @@ const ProductUpdate = () => {
             placeholder="Image URL"
             className="input input-bordered"
             required
+            value={image_url}
+            onChange={(e) => setImage_url(e.target.value)}
           />
         </div>
 
@@ -96,6 +127,11 @@ const ProductUpdate = () => {
           <button className="btn btn-primary">Edit</button>
         </div>
       </form>
+      <ShowToast
+        showToast={showToast}
+        setShowToast={setShowToast}
+        msg={"Product Updated Successfully"}
+      />
     </div>
   );
 };
