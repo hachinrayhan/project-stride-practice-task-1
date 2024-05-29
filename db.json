@@ -1,14 +1,6 @@
 {
   "shoes": [
     {
-      "id": "1",
-      "title": "Air Max 270",
-      "brand": "Nike",
-      "price": 150,
-      "description": "The Nike Air Max 270 features Nike's biggest heel Air unit yet for a super-soft ride that feels as impossible as it looks.",
-      "image_url": "https://shorturl.at/j6544"
-    },
-    {
       "id": "2",
       "title": "Ultraboost 21",
       "brand": "Adidas",
@@ -79,22 +71,6 @@
       "price": 150,
       "description": "The New Balance Fresh Foam 1080v11 provides luxurious comfort and a smooth ride for any type of runner.",
       "image_url": "https://t.ly/rMYyI"
-    },
-    {
-      "id": "11",
-      "title": "Air Zoom Pegasus 38",
-      "brand": "Nike",
-      "price": "120",
-      "description": "The Nike Air Zoom Pegasus 38 continues to put a spring in your step, using the same responsive foam as its predecessor.",
-      "image_url": "https://t.ly/jd0Gx"
-    },
-    {
-      "id": "12",
-      "title": "Adizero Adios Pro 2",
-      "brand": "Adidas",
-      "price": "220",
-      "description": "The Adidas Adizero Adios Pro 2 is a performance running shoe designed to help you crush your PRs with its advanced energy return technology.",
-      "image_url": "https://t.ly/VwXva"
     }
   ]
 }

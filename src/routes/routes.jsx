@@ -12,6 +12,7 @@ import PrivateRoute from "./private/PrivateRoute";
 import ProductDetails from "../pages/ProductDetails";
 import AllProducts from "../pages/AllProducts";
 import AddProduct from "../pages/AddProduct";
+import ProductUpdate from "../pages/ProductUpdate";
 
 export const router = createBrowserRouter([
   {
@@ -76,6 +77,16 @@ export const router = createBrowserRouter([
             <AddProduct />
           </PrivateRoute>
         ),
+      },
+      {
+        path: "all-products/edit/:id",
+        element: (
+          <PrivateRoute>
+            <ProductUpdate />
+          </PrivateRoute>
+        ),
+        loader: ({ params }) =>
+          fetch(`http://localhost:3000/shoes/${params.id}`),
       },
     ],
   },
