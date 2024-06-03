@@ -63,22 +63,6 @@
       "price": "210",
       "description": "The Adidas Adizero Adios Pro 2 is a performance running shoe designed to help you crush your PRs with its advanced energy return technology.",
       "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1677.jpg?t=st=1717000002~exp=1717003602~hmac=4679feef5bed0a19f5a12b490dddf24a9692cc07f0de150228db0d61acb7d464&w=740"
-    },
-    {
-      "id": "1",
-      "title": "Air Max 270",
-      "brand": "Nike",
-      "price": "150",
-      "description": "The Nike Air Max 270 features Nike's biggest heel Air unit yet for a super-soft ride that feels as impossible as it looks.",
-      "image_url": "https://img.freepik.com/free-photo/colorful-sneaker-is-being-spray-painted-with-purple-spray-paint_123827-23438.jpg?t=st=1717003038~exp=1717006638~hmac=9d9fde494ebebf5c19eb4dab036594a544bf361ff0902e9b1a9597228d3ba6f9&w=740"
-    },
-    {
-      "id": "13",
-      "title": "Gel-Kayano 27",
-      "brand": "ASICS",
-      "price": "160",
-      "description": "The ASICS Gel-Kayano 27 is designed to provide excellent long-distance comfort and stability.",
-      "image_url": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1652.jpg?t=st=1717003286~exp=1717006886~hmac=2de391711f283361c538cd75d172a718cc8bfbaf7a03683d2a4a35b294237990&w=740"
     }
   ]
 }

@@ -14,7 +14,21 @@ const Login = () => {
     const form = e.target;
     const email = form.email.value;
     const password = form.password.value;
-    signIn(email, password);
+    signIn(email, password).then((result) => {
+      const user = result.user;
+      fetch(`http://localhost:5000/users`, {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify(user),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          localStorage.setItem("token", data.token);
+        });
+    });
     form.reset();
   };
 

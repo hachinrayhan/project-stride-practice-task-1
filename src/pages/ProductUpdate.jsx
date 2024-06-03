@@ -12,20 +12,21 @@ const ProductUpdate = () => {
   const [image_url, setImage_url] = useState(shoe.image_url);
 
   const handleProductUpdate = async (e) => {
+    const token = localStorage.getItem("token");
     e.preventDefault();
     const form = e.target;
-    const id = form.id.value;
     const title = form.title.value;
     const brand = form.brand.value;
     const price = form.price.value;
     const description = form.description.value;
     const image_url = form.image_url.value;
-    const productInfo = { id, title, brand, price, description, image_url };
+    const productInfo = { title, brand, price, description, image_url };
 
-    await fetch(`http://localhost:3000/shoes/${shoe.id}`, {
+    await fetch(`http://localhost:5000/shoes/${shoe._id}`, {
       method: "PATCH",
       headers: {
         "content-type": "application/json",
+        authorization: `Bearer ${token}`,
       },
       body: JSON.stringify(productInfo),
     })
@@ -38,20 +39,6 @@ const ProductUpdate = () => {
     <div className="card w-full max-w-xl mx-auto shadow-2xl">
       <h1 className="text-3xl text-center font-bold mt-8">Edit Product</h1>
       <form onSubmit={handleProductUpdate} className="card-body">
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Id</span>
-          </label>
-          <input
-            type="text"
-            name="id"
-            placeholder="Product's Id"
-            className="input input-bordered"
-            required
-            value={shoe.id}
-            readOnly
-          />
-        </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Title</span>

@@ -3,17 +3,23 @@ import { Link } from "react-router-dom";
 import ShowToast from "../components/ShowToast";
 
 /* eslint-disable react/prop-types */
-const ProductManagement = ({ shoe }) => {
-  const { id, title, brand, price, description, image_url } = shoe;
+const ProductManagement = ({ shoe, refetch }) => {
+  const { _id, title, brand, price, description, image_url } = shoe;
   const [showToast, setShowToast] = useState(false);
 
   const handleDelete = async () => {
-    await fetch(`http://localhost:3000/shoes/${id}`, {
+    const token = localStorage.getItem("token");
+    await fetch(`http://localhost:5000/shoes/${_id}`, {
       method: "DELETE",
+      headers: {
+        "content-type": "application/json",
+        authorization: `Bearer ${token}`,
+      },
     })
       .then((res) => res.json())
       .then((data) => console.log(data));
     setShowToast(true);
+    refetch(_id);
   };
 
   return (
@@ -28,10 +34,10 @@ const ProductManagement = ({ shoe }) => {
         <p>{description}</p>
         <div className="card-actions justify-end">
           <button className="btn btn-primary">
-            <Link to={`/products/${id}`}>See Details</Link>
+            <Link to={`/products/${_id}`}>See Details</Link>
           </button>
           <button className="btn btn-info">
-            <Link to={`/dashboard/all-products/edit/${id}`}>Edit</Link>
+            <Link to={`/dashboard/all-products/edit/${_id}`}>Edit</Link>
           </button>
           <button onClick={handleDelete} className="btn btn-error">
             Delete
